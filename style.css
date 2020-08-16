@@ -1,6 +1,7 @@
 body {
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(background.jpg);
     background-size: cover;
+    background-position: center;
     overflow: hidden;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -31,6 +32,6 @@ h2 {
     h1, h2 {
         margin: 3px 0px;
     }
-    h1 {font-size: 23px;}
+    h1 {font-size: 22px;}
     h2 {font-size: 14px;}
 }
