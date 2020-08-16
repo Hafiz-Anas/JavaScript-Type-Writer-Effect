@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(background.jpg);
+    background-size: cover;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px;
+}
+h1, h2 {
+    font-weight: 100;
+    margin: 6px 0px;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+}
+h2 {
+    font-size: 23px;
+    color: rgb(190, 190, 190);
+}
+.txt-type > .txt {
+    border-right: .2rem solid white;
+    color: orange;
+}
+@media screen and (max-width: 450px) {
+    h1, h2 {
+        margin: 3px 0px;
+    }
+    h1 {font-size: 23px;}
+    h2 {font-size: 14px;}
+}
