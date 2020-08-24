@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
 body {
-    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url(background.jpg);
     background-size: cover;
     background-position: center;
     overflow: hidden;
